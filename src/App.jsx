@@ -34,7 +34,7 @@ export default function App() {
 
   return (
     <main className="wrap">
-      <h1>우리 반 방명록</h1>
+      <h1>홍천 우리 반 방명록</h1>
       <p className="sub">별명과 한 줄 인사를 남겨 주세요. 실명·전화번호는 쓰지 마세요.</p>
       <form onSubmit={save} className="card">
         <input value={name} maxLength={10} onChange={(e) => setName(e.target.value)} placeholder="별명 (10자까지)" />
